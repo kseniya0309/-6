@@ -1,0 +1,23 @@
+.bigphoto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.frame {
+    background-color: rgba(0,0,0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.photo-frame {
+    margin-top: 30px;
+    align-self: stretch;
+}

@@ -1,0 +1,70 @@
+
+
+.calendar {
+    grid-column: 2;
+    background-color: #efe7da;
+    height: 210px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9C941;
+    height: 20px;
+    width: 360px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.calendar table {
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+}
+
+.calendar-day td {
+    background-color: white;
+    text-align: right;
+}
+
+.another-month {
+    font-size: 14px;
+    color: grey;
+}
+
+.day-button {
+    text-align: right;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.choosed-day {
+    background-color: darkgray;
+    color: aqua;
+}
+
+.form-correct {
+    border-color: lawngreen;
+    border-radius: 3px;
+}
+
+.form-incorrect {
+    border-color: red;
+    border-radius: 3px;
+}
+
+.clue {
+    background-color: cornsilk;
+    border-radius: 4px;
+    border: #a1a2a2 solid 1px;
+    padding: 3px 5px 3px 5px;
+}

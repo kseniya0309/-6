@@ -1,0 +1,17 @@
+$firefox: #ef700f
+$chrome: #2190ce
+$margin: 18px
+
+@for $i from 1 to 6
+  @if ($i == 1)
+    .chrome
+      margin: $margin / 2 + 3
+
+      strong
+        color: $chrome
+  @if ($i > 4)
+    .firefox
+      margin: $margin * 2 - $i
+
+      strong
+        color: $firefox
